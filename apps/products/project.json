@@ -99,5 +99,9 @@
     }
   },
   "tags": ["type:app", "scope:products"],
-  "implicitDependencies": ["shared-assets", "shared-styles"]
+  "namedInputs": {
+    "projectSpecificFiles": [
+      "{workspaceRoot}/infra/products/**/*.tf"
+    ]
+  }
 }
